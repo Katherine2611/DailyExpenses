@@ -49,7 +49,6 @@ fun ExpenseCard(
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
 
-            // ✅ ДОБАВЛЕНА ИКОНКА
             Box(
                 modifier = Modifier
                     .size(50.dp)
@@ -65,7 +64,6 @@ fun ExpenseCard(
                 )
             }
 
-            // ❗ ТВОЙ ОРИГИНАЛЬНЫЙ КОД НЕ УДАЛЯЛСЯ
             Box(
                 modifier = Modifier
                     .weight(1f)
