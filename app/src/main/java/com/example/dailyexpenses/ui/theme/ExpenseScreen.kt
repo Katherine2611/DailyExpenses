@@ -46,7 +46,6 @@ fun ExpenseScreen(viewModel: ExpenseViewModel = viewModel()) {
                 .padding(16.dp)
         ) {
 
-            // Верхний красивый блок
             Card(
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(24.dp),
@@ -144,7 +143,6 @@ fun ExpenseScreen(viewModel: ExpenseViewModel = viewModel()) {
                 }
             }
 
-            // ✅ ДОБАВЛЕНО ТО, ЧТО ТЫ ПРОСИЛА
             Spacer(modifier = Modifier.height(12.dp))
 
             Text(
